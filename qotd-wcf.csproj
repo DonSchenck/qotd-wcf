@@ -61,12 +61,12 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Service1.svc" />
+    <Content Include="qotdwcf.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
+    <Compile Include="qotdwcf.svc.cs">
+      <DependentUpon>qotdwcf.svc</DependentUpon>
     </Compile>
     <Compile Include="IQotd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
